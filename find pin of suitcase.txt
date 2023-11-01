@@ -1,0 +1,28 @@
+import java.io.*;
+import java.util.*;
+class Main
+{
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int a = sc.nextInt();
+		int b = a/9;
+		int c = a%9;
+		System.out.print(c);
+		while(b>0)
+		{
+		    System.out.print(9);
+		    b--;
+		}
+
+	}
+}
+
+
+
+Input: 
+
+11
+
+Output:
+
+29
